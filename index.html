@@ -51,11 +51,12 @@
               </div>
               <div class="phone-number">
                 <label for="phone-number">PHONE NUMBER</label>
-                <input type="tel" minlength="12" maxlength="12" name="phone-number" id="phone-number" required>  
+                <input type="number" minlength="12" maxlength="12" name="phone-number" id="phone-number" required>  
               </div>
               <div class="password">
                 <label for="password">PASSWORD</label>
-                <input type="password" name="password" id="password" required>
+                <input type="password" name="password" id="password" 
+                pattern="^((?=.*[0-9])(?=.*[a-zA-Z])).{6,12}$" title="Enter a passowrd between 6 and 12 characters, containing at least one letter and number" required>
               </div>
               <div class="confirm-password">
                 <label for="confirm-password">CONFIRM-PASSWORD</label>

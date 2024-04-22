@@ -1,5 +1,6 @@
 var password = document.getElementById("password");
 var confirmPassword = document.getElementById("confirm-password");
+let submit = document.getElementsByClassName("create-account");
 
 function validatePassword() {
   if (password.value != confirmPassword.value) {
@@ -10,12 +11,4 @@ function validatePassword() {
 }
 password.onchange = validatePassword;
 confirmPassword.onkeyup = validatePassword;
-// console.loge(password);
-password.innerHTML = "mohammed";
 
-// let info = document.querySelectorAll("input");
-// info.forEach((input) => {
-//   if (input.value == valid) {
-//     info.style.borderColor = "yellow";
-//   }
-// });
