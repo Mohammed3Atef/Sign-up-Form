@@ -1,4 +1,4 @@
-var password = document.getElementById("passowrd");
+var password = document.getElementById("password");
 var confirmPassword = document.getElementById("confirm-password");
 
 function validatePassword() {
