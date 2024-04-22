@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign-up Form</title>
+  <link rel="stylesheet" href="css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css">
+  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+
+
+</head>
+<body>
+  <div class="container" >
+    <aside>
+      <img class="background" cover src="/imgs/photo.jpg" alt="background">
+      <div class="logo">
+        <img class="photo-logo" src="/imgs/odin-lined.png" alt="logo">
+        <h3 class="text-logo">ODIN</h3>
+
+      </div>
+      <p class="copyright">
+        Photo By <span>Halie West</span>  On <span>Unsplash</span>
+      </p>
+    </aside>
+    <main>
+      <div class="info"> 
+             <p class="info-1">
+              This if not a real online service! You know you need something like this 
+              in your life to help you realize your deepest dreams.
+              <span>Sign up now to get started.</span>        
+             </p>
+             <p class="info-2"> You know you want to.</p>
+      </div>
+      <form class="informations" action="#" name="get">
+          <div class="box">
+            <h4 class="text-header">Let's do this!</h4>
+            <div class="inputs">
+              <div class="first-name">
+                <label for="first-name">FIRST NAME</label>
+                <input type="text" name="first-name" id="first-name" required>
+              </div>
+              <div class="last-name">
+                <label for="last-name">LAST NAME</label>
+                <input type="text" name="last-name" id="last-name" required>
+              </div>
+              <div class="email">
+                <label for="email">EMAIL</label>
+                <input type="email" name="email" id="emaile" required>
+              </div>
+              <div class="phone-number">
+                <label for="phone-number">PHONE NUMBER</label>
+                <input type="tel" minlength="12" maxlength="12" name="phone-number" id="phone-number" required>  
+              </div>
+              <div class="password">
+                <label for="password">PASSWORD</label>
+                <input type="password" name="password" id="password" required>
+              </div>
+              <div class="confirm-password">
+                <label for="confirm-password">CONFIRM-PASSWORD</label>
+                <input type="password" name="confirm-password" id="confirm-password" required>
+              </div>
+            </div>
+          </div>
+          <button class="create-account" type="submit">Create Account</button>
+          <p class="log-in">ALready have an Account?
+            <a href="#">Log in</a>
+          </p>
+      </form>
+
+    </main>
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
