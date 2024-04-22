@@ -11,4 +11,11 @@ function validatePassword() {
 password.onchange = validatePassword;
 confirmPassword.onkeyup = validatePassword;
 // console.loge(password);
-password.innerHTML = "mohammed"
+password.innerHTML = "mohammed";
+
+// let info = document.querySelectorAll("input");
+// info.forEach((input) => {
+//   if (input.value == valid) {
+//     info.style.borderColor = "yellow";
+//   }
+// });
